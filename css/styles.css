@@ -380,7 +380,7 @@ hr {
     gap: 30px;
 }
 
-.clients-link {
+.clients-icon-list__link {
     fill: var(--icon-color);
     background-color: white;
     border: 1px solid var(--icon-color);
@@ -393,7 +393,7 @@ hr {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-link:hover, .clients-link:focus {
+.clients-icon-list__link:hover, .clients-icon-list__link:focus {
     fill: var(--accent-color);
     border-color: var(--accent-color);
 }
