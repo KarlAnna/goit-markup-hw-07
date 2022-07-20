@@ -275,12 +275,12 @@ hr {
     position: relative;
 }
 
-.wwd-list__item, .our-team-item {
+.wwd-list__item, .ot-list__item {
     display: inline-block;
     margin-right: 30px;
 }
 
-.wwd-list__item:nth-child(3), .our-team-item:nth-child(4) {
+.wwd-list__item:nth-child(3), .ot-list__item:nth-child(4) {
     margin-right: 0;
 }
 
@@ -305,12 +305,12 @@ hr {
 
 /* section 4 ------------------------------------------------------> */
 
-.our-team {
+.ot__section {
     background-color: var(--bg-color-whitish);
     padding: 94px 0;
 }
 
-.our-team-item {
+.ot-list__item {
     background-color: white;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -319,11 +319,11 @@ hr {
     height: 428px;
 }
 
-.our-team-text {
+.ot-list-text {
     padding: 30px 0;
 }
 
-.our-team-name {
+.ot-list-text__name {
     color: var(--title-color);
 
     font-weight: 500;
@@ -335,7 +335,7 @@ hr {
     margin-bottom: 10px;
 }
 
-.our-team-post {
+.ot-list-text__post {
     color: var(--text-color);
 
     font-size: 16px;
@@ -344,7 +344,7 @@ hr {
     letter-spacing: 0.03em;
 }
 
-.our-team-icon-list {
+.ot-icon-list {
     display: flex;
     justify-content: center;
     height: 45px;
@@ -353,7 +353,7 @@ hr {
     margin-top: 20px;
 }
 
-.our-team-link {
+.ot-icon-list__link {
     fill: var(--icon-color);
     width: 44px;
     height: 44px;
@@ -362,11 +362,11 @@ hr {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.our-team-icon {
+.ot-icon-listt__icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.our-team-link:hover, .our-team-link:focus {
+.ot-icon-list__link:hover, .ot-icon-list__link:focus {
     background-color: var(--accent-color);
     fill: white;
 }
