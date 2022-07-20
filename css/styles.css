@@ -252,11 +252,11 @@ hr {
 
 /* section 3 ------------------------------------------------------> */
 
-.what-we-do {
+.wwd-section {
     padding-bottom: 94px;
 }
 
-.title {
+.section-title {
     color: var(--title-color);
 
     font-weight: 700;
@@ -271,20 +271,20 @@ hr {
     margin-bottom: 50px;
 }
 
-.what-we-do-item {
+.wwd-list__item {
     position: relative;
 }
 
-.what-we-do-item, .our-team-item {
+.wwd-list__item, .our-team-item {
     display: inline-block;
     margin-right: 30px;
 }
 
-.what-we-do-item:nth-child(3), .our-team-item:nth-child(4) {
+.wwd-list__item:nth-child(3), .our-team-item:nth-child(4) {
     margin-right: 0;
 }
 
-.img-subtitle {
+.wwd-list__img-title {
     color: white;
     font-weight: 700;
     font-size: 14px;
