@@ -28,7 +28,7 @@ body {
 
 /** HEADER **/
 
-.header {
+.header-inner {
     display: flex;
     width: 1200px;
     margin: 0 auto;
@@ -90,7 +90,7 @@ nav {
     bottom: -35px;
 }
 
-.header__address-link {
+.header-inner__address-link {
     color: var(--text-color);
     font-weight: 500;
     font-size: 14px;
@@ -102,16 +102,16 @@ nav {
 }
 
 .menu-nav__link-current, .menu-nav__link:hover, .menu-nav__link:focus, 
-.header__address-link:hover, .header__address-link:focus, 
+.header-inner__address-link:hover, .header-inner__address-link:focus, 
 .footer-address-link-mail:hover, .footer-address-link-mail:focus, .footer-address-link-tel:hover, .footer-address-link-tel:focus {
     color: var(--accent-color);
 }
 
-.header__address-icon {
+.header-inner__address-icon {
     fill: var(--text-color);
 }
 
-.header__address-link:hover .header__address-icon, .header__address-link:focus .header__address-icon {
+.header-inner__address-link:hover .header-inner__address-icon, .header-inner__address-link:focus .header-inner__address-icon {
     fill: currentColor;
 }
 
@@ -127,10 +127,10 @@ hr {
 
 /* section 1 ------------------------------------------------------> */
 
-.cap {
+.hero-section {
     background-color: var(--bg-color-grayish);
     padding: 200px 0;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/cap-bg.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-section__-bg.jpg);
     background-size: cover;
     background-position: center;
     max-width: 1600px;
@@ -138,7 +138,7 @@ hr {
     margin-right: auto;
 }
 
-.cap-title {
+.hero-section__title {
     color: white;
 
     font-weight: 900;
@@ -153,7 +153,7 @@ hr {
     margin-bottom: 30px;
 }
 
-.cap-btn {
+.order-btn {
     background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -164,11 +164,11 @@ hr {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.cap-btn:hover, .footer-btn:hover, .modal-form-btn:hover {
+.order-btn:hover, .footer-btn:hover, .modal-form-btn:hover {
     background-color: var(--button-hover);
 }
 
-.cap-btn-text {
+.order-btn__text {
     color: white;
 
     font-weight: 700;
