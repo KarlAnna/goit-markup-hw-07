@@ -33,8 +33,6 @@ body {
     width: 1200px;
     margin: 0 auto;
     padding: 25px 15px;
-
-    border-bottom: 1px solid #ececec;
 }
 
 .logo-header, .logo-footer {
@@ -115,6 +113,10 @@ nav {
 
 .header__address-link:hover .header__address-icon, .header__address-link:focus .header__address-icon {
     fill: currentColor;
+}
+
+hr {
+    border: 1px solid #ececec;
 }
 
 /** MAIN **/
