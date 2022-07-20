@@ -130,7 +130,7 @@ hr {
 .hero-section {
     background-color: var(--bg-color-grayish);
     padding: 200px 0;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-section__-bg.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hs-bg.jpg);
     background-size: cover;
     background-position: center;
     max-width: 1600px;
@@ -197,13 +197,13 @@ hr {
     margin: -1px;
 }
 
-.characteristics-icon-list {
+.char-icon-list {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.characteristics-icon-list-item {
+.char-icon-list__item {
     color: var(--bg-color-whitish);
     display: flex;
     flex-direction: column;
@@ -212,20 +212,20 @@ hr {
     margin-bottom: 30px;
 }
 
-.characteristics-icon {
+.char-icon-list__icon {
     background-color: var(--bg-color-whitish);
     
 }
 
-.characteristics-list {
+.char-list {
     display: inline-flex;
 }
 
-.characteristics-list-item {
+.char-list__item {
     margin-right: 30px;
 }
 
-.characteristics-subtitle {
+.char-list__title {
     color: var(--title-color);
 
     font-weight: 700;
@@ -238,7 +238,7 @@ hr {
     margin-bottom: 10px;
 }
 
-.characteristics-text {
+.char-list__text {
     color: var(--text-color);
 
     font-weight: 400;
