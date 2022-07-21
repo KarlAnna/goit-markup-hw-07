@@ -25,7 +25,7 @@ a {
     display: inline-block;
 }
 
-a:not(.modal-form-checkbox-label-link) {
+a:not(.chackbox-field__link) {
     text-decoration: none;
 }
 
