@@ -1,0 +1,20 @@
+.footer-icon-list {
+    display: flex;
+    gap: 10px;
+
+    &__link {
+        fill: white;
+        background-color: rgba(255, 255, 255, 0.1);
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+
+        transition: fill $time-transition, background-color $time-transition;
+
+        &:hover,
+        &:focus {
+            fill: white;
+            background-color: $accent-color;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.subscribe-btn {
+    position: relative;
+    background-color: $accent-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-color: $accent-color;
+    border-radius: 4px;
+    padding: 10px 62px 10px 29px;
+    margin-left: 10px;
+
+    transition: color $time-transition, background-color $time-transition;
+
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.85;
+
+    &__icon {
+        position: absolute;
+        fill: white;
+        top: 13px;
+        right: 28px;
+    }
+}

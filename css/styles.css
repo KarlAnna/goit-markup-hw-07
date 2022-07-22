@@ -121,7 +121,7 @@ hr {
 
 /** MAIN **/
 
-.main-studio {
+main {
     background-color: white;
 }
 
@@ -362,7 +362,7 @@ hr {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.ot-icon-listt__icon {
+.ot-icon-list__icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -629,7 +629,7 @@ footer {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.fieldset-item__::placeholder {
+.fieldset-item__textarea::placeholder {
     color: rgba(117, 117, 117, 0.5);
     font-size: 12px;
     line-height: 0.85;
@@ -732,7 +732,6 @@ footer {
     border-color: rgba(255, 255, 255, 0);
 
     color: var(--title-color);
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -792,7 +791,7 @@ footer {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
- .projects-list__item:hover .projects-overlay__text {
+.projects-list__item:hover .projects-overlay__text {
     transform: translateY(0%);
 }
 
