@@ -1,9 +1,9 @@
 /* HEADER */
-@import './components/header/header-inner';
-@import './components/header/logo-header';
-@import './components/header/nav';
-@import './components/header/menu-nav';
-@import './components/header/hr';
+@import './components/header/header-inner.scss';
+@import './components/header/logo-header.scss';
+@import './components/header/nav.scss';
+@import './components/header/menu-nav.scss';
+@import './components/header/hr.scss';
 
 /* MAIN-STUDIO */
 @import './components/main-studio/hero-section';
@@ -12,7 +12,6 @@
 @import './components/main-studio/wwd-section';
 @import './components/main-studio/ot-section';
 @import './components/main-studio/clients-section';
-@import './components/main-studio';
 
 /* MODAL */
 @import './components/modal/modal';
