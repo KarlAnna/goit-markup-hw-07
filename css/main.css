@@ -206,7 +206,7 @@ summary {
   letter-spacing: 0.03em;
 }
 .logo-header__first-word {
-  color: var(--accent-color);
+  color: #2196f3;
   text-decoration: none;
 }
 
@@ -231,7 +231,7 @@ nav {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.menu-nav__link__link:hover, .menu-nav__link__link:focus {
+.menu-nav__link:hover, .menu-nav__link:focus {
   color: #2196f3;
 }
 .menu-nav__link-current {
@@ -269,6 +269,7 @@ hr {
   background-size: cover;
   background-position: center;
   max-width: 1600px;
+  height: 600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -283,6 +284,7 @@ hr {
   width: 696px;
   margin: auto;
   margin-bottom: 30px;
+  margin-top: 106px;
 }
 
 .section-title {
@@ -893,7 +895,7 @@ hr {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .order-btn:hover {
-  color: #188ce8;
+  background-color: #188ce8;
 }
 .order-btn__text {
   color: white;
@@ -926,6 +928,9 @@ hr {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.85;
+}
+.subscribe-btn:hover {
+  background-color: #188ce8;
 }
 .subscribe-btn__icon {
   position: absolute;
@@ -969,8 +974,8 @@ hr {
 
 .send-btn {
   background-color: #2196f3;
-  padding: 10px 55px;
   border-color: #2196f3;
+  padding: 10px 55px;
   border-radius: 4px;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -978,15 +983,18 @@ hr {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.85;
-  -webkit-transition: color250ms cubic-bezier(0.4, 0, 0.2, 1), background-color250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color250ms cubic-bezier(0.4, 0, 0.2, 1), background-color250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.send-btn:hover {
+  background-color: #188ce8;
 }
 
 /* LAYOUTS */
 body {
   background-color: white;
-  font-family: "Roboto", sans-serif;
   font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
